@@ -145,6 +145,7 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  text-align: center;
 }
 h2 {
   font-size: 3.2rem;
@@ -161,11 +162,43 @@ p {
 }
 .container {
   background-image: linear-gradient(to bottom right, pink, cyan);
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 header {
   display: flex;
-}
-header h1 {
   width: 100%;
-  align-content: center;
+}
+header .top {
+  display: flex;
+  text-align: center;
+}
+.top-content {
+  margin: 10rem auto 0;
+  text-align: end;
+}
+.top-content button {
+  background-color: darkolivegreen;
+  color: white;
+  width: 10rem;
+  border: none;
+  padding: 0.5rem 2rem;
+}
+.mid-content {
+  display: flex;
+  flex-direction: column;
+}
+.mid-content h1 {
+  margin: 2rem auto;
+}
+.mid-content .button {
+  text-align: center;
+}
+.mid-content .button button {
+  background-color: darkolivegreen;
+  color: white;
+  width: 10rem;
+  border: none;
+  padding: 0.5rem 2rem;
 }
