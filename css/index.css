@@ -168,16 +168,19 @@ p {
 header {
   display: flex;
   width: 100%;
+  margin: 0 auto 2rem;
 }
 header .top {
   display: flex;
+  width: 100%;
+}
+header .top h1 {
   text-align: center;
 }
 header .top nav {
   text-align: end;
 }
 .top-content {
-  margin: 5rem auto 0;
   text-align: end;
 }
 .top-content button {
@@ -190,6 +193,9 @@ header .top nav {
 .mid-content {
   display: flex;
   flex-direction: column;
+}
+.mid-content .top {
+  border-bottom: 10px, solid darkslategray;
 }
 .mid-content h1 {
   margin: 2rem auto;
@@ -204,10 +210,14 @@ header .top nav {
   border: none;
   padding: 0.5rem 2rem;
 }
+.mid-content p {
+  padding: 2rem 5rem;
+}
 footer {
   background-color: #6c6c6c;
   text-align: center;
   margin-top: 2rem;
+  padding: 20px auto;
 }
 footer p {
   font-size: 1rem;
