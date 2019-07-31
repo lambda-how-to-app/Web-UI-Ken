@@ -175,16 +175,18 @@ header .top {
   width: 100%;
   flex-direction: column;
   margin-top: 2rem;
+  background-color: #6c6c6c;
 }
 header .top h1 {
   text-align: center;
+  color: seashell;
 }
 header .top nav {
   text-align: end;
 }
 header .top nav a {
   text-decoration: none;
-  color: black;
+  color: seashell;
   font-size: 2rem;
   margin: 0 0.5rem;
 }
