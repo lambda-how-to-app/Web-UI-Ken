@@ -141,7 +141,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -161,8 +161,7 @@ p {
   padding-bottom: 10px;
 }
 .container {
-  background-image: linear-gradient(to bottom right, pink, cyan);
-  max-width: 800px;
+  max-width: 500px;
   width: 100%;
   margin: 0 auto;
 }
@@ -201,4 +200,13 @@ header .top {
   width: 10rem;
   border: none;
   padding: 0.5rem 2rem;
+}
+footer {
+  background-color: #6c6c6c;
+  text-align: center;
+  margin-top: 2rem;
+}
+footer p {
+  font-size: 1rem;
+  color: white;
 }
