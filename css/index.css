@@ -223,6 +223,15 @@ header .top nav a {
 .mid-content p {
   padding: 2rem 5rem;
 }
+img {
+  display: flex;
+}
+img .pascal {
+  width: 500px;
+}
+img .luis {
+  width: 100%;
+}
 footer {
   background-color: #6c6c6c;
   text-align: center;
