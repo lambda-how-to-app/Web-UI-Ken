@@ -165,6 +165,11 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
 header {
   display: flex;
   width: 100%;
@@ -189,6 +194,11 @@ header .top nav a {
   color: seashell;
   font-size: 2rem;
   margin: 0 0.5rem;
+}
+@media (max-width: 800px) {
+  header {
+    max-width: 800px;
+  }
 }
 .top-content {
   text-align: end;
