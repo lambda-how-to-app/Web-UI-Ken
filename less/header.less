@@ -2,6 +2,7 @@ header {
     display: flex;
     width: 100%;
     margin: 0 auto 2rem;
+    // background-color: #6c6c6c;
     //justify-content: center;
     .top {
         display: flex;
@@ -9,9 +10,11 @@ header {
         width: 100%;
         flex-direction: column;
         margin-top: 2rem;
+        background-color: #6c6c6c;
         h1 {
             text-align: center;
             //justify-content: center;
+            color: seashell;
         }
         nav {
             //justify-content: end;
@@ -19,12 +22,15 @@ header {
             // justify-content: space-between;
             a {
                 text-decoration: none;
-                color: black;
+                color: seashell;
                 font-size: 2rem;
                 margin: 0 0.5rem;
             }
         }
     }
-    
+    @media @media {
+        max-width: 500px;
+        width: 100%;
+    }
 }
 

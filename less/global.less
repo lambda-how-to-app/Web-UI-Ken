@@ -37,8 +37,27 @@
 
   .container {
     //background-image: linear-gradient(to bottom right, pink, rgb(28, 104, 104));
-      max-width: 500px;
+      max-width: 800px;
       width: 100%;
       margin: 0 auto;
+      @media @mobile {
+        max-width: 500px;
+        width: 100%;
+      }
 
+      // img {
+      //   width: 800px
+      //   @media @mobile {
+      //     width: 500px;
+      //   }
+      // }
+
+  }
+
+  img {
+    display: flex;
+    width: 800px;
+    @media @mobile {
+      width: 500px;
+    }
   }
